@@ -3,15 +3,15 @@ import { tokens } from "../theme";
 
 const Header = ({ title, subtitle }) => {
   const theme = useTheme();
-  const colors = tokens(theme.palette.made);
+  const colors = tokens(theme.palette.mode);
 
   return (
     <Box mb="30px">
       <Typography
-        variant="h3"
+        variant="h4"
         color={colors.grey[100]}
         fontWeight="bold"
-        sx={{ mb: "5px" }}
+        sx={{ mb: "3px" }}
       >
         {title}
       </Typography>
