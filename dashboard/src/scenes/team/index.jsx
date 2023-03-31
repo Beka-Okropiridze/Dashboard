@@ -1,4 +1,4 @@
-import { Box, typography, useTheme } from "@mui/system";
+import { Box, useTheme } from "@mui/system";
 import { DataGrid } from '@mui/x-data-grid';
 import { tokens } from "../../theme";
 import { mockDataTeam } from '../../data/mockData';
